@@ -1,8 +1,11 @@
 Name: Akshat Shriraj Surana
+
 Sec: A batch A2
+
 Roll: 34
 
 Problem Name: Maximum Possible Sum
+
 Problem Statement: Given three queues of the positive numbers, the task is to find the possible equal maximum sum of the queues with the removal of first elements allowed
 
 Implementation using arrays
