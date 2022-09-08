@@ -3,7 +3,6 @@ using namespace std;
 
 void push_queue(int *, int *, int *, int);
 void pop_queue(int *, int *, int *);
-void display_queue(int *, int *, int *);
 /////////////////////////////////////////* MAIN FUNCTION BEEGINS *////////////////////////////////////////////////
 
 int main()
@@ -131,13 +130,4 @@ void pop_queue(int arr[], int *front, int *rear)
         cout << "queue underflow" << endl;
     else
         *front = *front + 1;
-}
-
-//////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////////////////////
-void display_queue(int arr[], int *front, int *rear)
-{
-    for (int i = *front + 1; i <= *rear; i++)
-        printf("%d ", arr[i]);
-    printf("\n");
 }
